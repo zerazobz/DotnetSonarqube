@@ -6,6 +6,11 @@ namespace TestTestConsole
     public class MathLibraryTest
     {
         MathLibrary mathL;
+
+        public MathLibraryTest()
+        {
+            mathL = new MathLibrary();
+        }
              
         [SetUp]
         public void Setup()

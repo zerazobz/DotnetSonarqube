@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{0D7B4BDC-D397-45B4-8B8B-70B17DFA918D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{0D7B4BDC-D397-45B4-8B8B-70B17DFA918D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTestConsole", "TestTestConsole\TestTestConsole.csproj", "{ECD17D88-3303-4CD5-B4E4-329DDB0A8C3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTestConsole", "TestTestConsole\TestTestConsole.csproj", "{ECD17D88-3303-4CD5-B4E4-329DDB0A8C3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A3F7EA1-D25F-420B-B246-0049819DB2C8}"
+	ProjectSection(SolutionItems) = preProject
+		Details.md = Details.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
