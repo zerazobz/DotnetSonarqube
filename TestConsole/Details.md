@@ -1,10 +1,18 @@
 # Configuration to get Code Coverage in Sonarqube
 
 ## Preconditions
+Follow this tutorial: [Sonarqube configuration](https://community.sonarsource.com/t/coverage-test-data-generate-reports-for-c-vb-net/9871)
+
+
 1. Download NUnit console [NUnit Console releases](https://github.com/nunit/nunit-console/releases)
 2. Add the installation path to the system path, commonly it is: C:\Program Files (x86)\NUnit.org\nunit-console
 3. C:\Users\erick.asto\.nuget\packages\nunit.consolerunner\3.15.0\tools\nunit3-console.exe --result=NUnitResults.xml "TestTestConsole\bin\Debug\net5.0\TestTestConsole.dll"
+	
+	nunit3-console.exe --inprocess --result=NUnitResults.xml "TestTestConsole\bin\Debug\net5.0\TestTestConsole.dll"
 	check Errors
+
+4. %userprofile%\.nuget\packages\nunit.consolerunner\3.15.0\tools\nunit3-console.exe --result=NUnitResults.xml "TestTestConsole\bin\Debug\net5.0\TestTestConsole.dll"
+	This is working	
 
 ## Steps
 
